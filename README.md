@@ -6,7 +6,7 @@
 
 <h2>I have no formal tech-related experience so Ive been using this last year to upskill 📈</h2>
 
-<h3>Here is what Ive been doing:</h3>
+<h3><i>Here is a list of some of my completed and in-work trainings & certifications:</i></h3>
 
 <b>TryHackMe</b>
 ![tryhackme stats](https://raw.githubusercontent.com/<erockdu4>/<erockdu4>/master/assets/thm_propic.png)
