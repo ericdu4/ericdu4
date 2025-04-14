@@ -9,6 +9,7 @@
 <h3>Here is what Ive been doing:</h3>
 
 <b>TryHackMe</b>
+![tryhackme stats](https://raw.githubusercontent.com/<erockdu4>/<erockdu4>/master/assets/thm_propic.png)
 - Intro To Cyber Pathway
 - Cyber Security 101 Pathway
 - SOC Level 1 Pathway - In-work
