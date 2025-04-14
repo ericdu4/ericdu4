@@ -9,7 +9,6 @@
 <h3><i>Here is a list of some of my completed and in-work trainings & certifications:</i></h3>
 
 <b>TryHackMe</b>
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2569597" style='border:none;'></iframe>
 - Intro To Cyber Pathway
 - Cyber Security 101 Pathway
 - SOC Level 1 Pathway - In-work
@@ -29,3 +28,5 @@
 - Im trying to find something to do
 -   Im open to suggestions
 
+
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2569597" style='border:none;'></iframe>
