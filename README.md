@@ -1,16 +1,22 @@
-## Hi there 👋
+## Howdy World!  Im Eric
 
-<!--
-**ericdu4/ericdu4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Im a 💻 tech junkie who is retiring from the Air Force in 2025 after 23 years.
 
-Here are some ideas to get you started:
+Im very excited to start a second career in the very near future.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I have no formal tech-related experience so Ive been using this last year to upskill 📈
+
+Here is what Ive been doing:
+
+TryHackMe
+Intro To Cyber Pathway
+Cyber Security 101
+SOC Level 1 - In-work
+Security Analyst Level I Certification - May 2025
+
+Linkedin Learning
+Getting Started with Microsoft Azure
+Career Essentials in Data Analysis
+Career Essentials in Cybersecurity
+Netowrking and Administration Fundamentals
+Learning Powershell & Powershell 7 Essential Training
