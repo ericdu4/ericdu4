@@ -28,5 +28,9 @@
 - Im trying to find something to do
 -   Im open to suggestions
 
+<b>Socials</b>
+- LinkedIn
+www.linkedin.com/in/eric-b-dufour
+- Facebook  https://www.facebook.com/zekelander/
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2569597" style='border:none;'></iframe>
+
