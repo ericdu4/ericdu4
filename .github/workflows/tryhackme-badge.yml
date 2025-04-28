@@ -7,21 +7,37 @@ on:
 
 jobs:
   update-badge:
-    runs-on: ubuntu-22.04
-
+    runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-    - name: Configure Git Identity
-      run: |
-        git config --global user.name "GitHub Actions Bot"
-        git config --global user.email "actions@github.com"
+      - name: Update badge
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+        env:
+          THM_BADGE_URL: "https://tryhackme-badges.vercel.app/api?username=erockdu4" # Correct badge URL
+        run: |
+          const fs = require('fs').promises;
+          const fetch = require('node-fetch');
 
-    - name: Fetch TryHackMe Badge
-      uses: DhanushNehru/tryhackme-badge-action-workflow@v1.0
-      with:
-        image_path: './assets/tryhackme-badge.png'
-        username: 'erockdu4'
-        user_id: 'edufour249@gmail.com'
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          async function updateBadge() {
+            const response = await fetch(process.env.THM_BADGE_URL);
+            if (!response.ok) {
+              throw new Error(`Failed to fetch badge: ${response.status} ${response.statusText}`);
+            }
+            const arrayBuffer = await response.arrayBuffer();
+            const buffer = Buffer.from(arrayBuffer);
+            await fs.writeFile('assets/tryhackme-badge.svg', buffer); // Write to the correct path
+          }
+
+          updateBadge().catch(error => {
+            console.error(error);
+            process.exit(1);
+          });
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update TryHackMe badge"
+          file_pattern: assets/tryhackme-badge.svg # Correct file path
