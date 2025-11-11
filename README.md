@@ -9,10 +9,13 @@
 <h3><i>Here is a list of some of my completed and in-work trainings & certifications:</i></h3>
 
 <b>TryHackMe</b>
-![TryHackMe Badge](assets/tryhackme-badge.svg)
+![TryHackMe Badge]
 - Intro To Cyber Pathway
 - Cyber Security 101 Pathway
 - SOC Level 1 Pathway - In-work
+- Generative AI with Python & Azure
+- Scrum Master Certified SAFe
+- Google Professional Data Analytics Certificate
 
 <b>Linkedin Learning</b>
 - Getting Started with Microsoft Azure
